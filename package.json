@@ -1,0 +1,14 @@
+{
+  "name": "hyper-cooland",
+  "version": "0.0.1",
+  "description": "Hyper theme based on Cooland Theme for VS Code",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "cooland"
+  ],
+  "author": "Samuel Bran",
+  "license": "MIT"
+}
