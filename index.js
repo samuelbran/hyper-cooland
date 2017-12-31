@@ -1,16 +1,16 @@
 // Constants
-const backgroundColor = '#212121';
-const foregroundColor = '#ffffff';
+const backgroundColor = '#212121'
+const foregroundColor = '#ffffff'
 
 // Colors
-const RED = '#E66450';
-const GREEN = '#00CCA3';
-const CYAN = '#0BC7D1';
-const YELLOW = '#FFA600';
-const BLUE = '#1EB6E8';
-const MAGENTA = '#F92672';
-const LIGHT_GRAY = '#f2f2f2';
-const DARK_GRAY = '#212121';
+const RED = '#E66450'
+const GREEN = '#00CCA3'
+const CYAN = '#0BC7D1'
+const YELLOW = '#FFA600'
+const BLUE = '#1EB6E8'
+const MAGENTA = '#F92672'
+const LIGHT_GRAY = '#f2f2f2'
+const DARK_GRAY = '#212121'
 
 // Mapped Colors
 const colors = {
@@ -31,17 +31,17 @@ const colors = {
   lightCyan: CYAN,
   colorCubes: '#fff',
   grayscale: foregroundColor,
-};
+}
 
 // Additional Constants
-const cursorColor = YELLOW;
-const borderColor = backgroundColor;
+const cursorColor = YELLOW
+const borderColor = backgroundColor
 
 exports.decorateConfig = config => {
-  let windowControlsCSS;
+  let windowControlsCSS
 
   if (config.showWindowControls) {
-    windowControlsCSS = '.list_2902 { margin-left: 0 !important; }';
+    windowControlsCSS = '.list_2902 { margin-left: 0 !important; }'
   }
 
   return Object.assign({}, config, {
@@ -74,5 +74,5 @@ exports.decorateConfig = config => {
       }
       ${windowControlsCSS}
     `,
-  });
-};
+  })
+}
