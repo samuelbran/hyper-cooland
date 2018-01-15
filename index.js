@@ -10,7 +10,7 @@ const YELLOW = '#FFA600'
 const BLUE = '#1EB6E8'
 const MAGENTA = '#F92672'
 const LIGHT_GRAY = '#f2f2f2'
-const DARK_GRAY = '#212121'
+const DARK_GRAY = '#999999'
 
 // Mapped Colors
 const colors = {
@@ -30,7 +30,7 @@ const colors = {
   lightMagenta: MAGENTA,
   lightCyan: CYAN,
   colorCubes: '#fff',
-  grayscale: foregroundColor,
+  grayscale: foregroundColor
 }
 
 // Additional Constants
@@ -73,6 +73,6 @@ exports.decorateConfig = config => {
         background-color: #212121;
       }
       ${windowControlsCSS}
-    `,
+    `
   })
 }
